@@ -82,13 +82,13 @@ custom_rules:
   auto_generated_leftovers:
     regex: 'func [^\n]*\{\n(\s*super\.[^\n]*\n(\s*\/\/[^\n]*\n)*|(\s*\/\/[^\n]*\n)+)\s*\}'
     message: "Delete auto-generated functions that you don't use"
-  commented_code:
-    regex: '(?<!:|\/)\/\/\h*[a-z.](?!wiftlint)'
-    message: "Comment starting with lowercase letter - did you forget to delete old code?"
-  multiline_commented_code:
-    regex: '^\s*[a-z]'
-    match_kinds: comment
-    message: "Comment starting with lowercase letter - did you forget to delete old code?"
+#  commented_code:
+#    regex: '(?<!:|\/)\/\/\h*[a-z.](?!wiftlint)'
+#    message: "Comment starting with lowercase letter - did you forget to delete old code?"
+#  multiline_commented_code:
+#    regex: '^\s*[a-z]'
+#    match_kinds: comment
+#    message: "Comment starting with lowercase letter - did you forget to delete old code?"
 #  non_localized_word:
 #    regex: '(?<!NSLocalizedString\()"[[:upper:]][[:lower:]]+"'
 #    message: "Wrap string in NSLocalizedString()"
