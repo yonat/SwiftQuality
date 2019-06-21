@@ -77,8 +77,9 @@ custom_rules:
     regex: "== false"
     message: "Don't compare to false, just use !value."
   numbers_smell:
-    regex: '(return |case |\w\(|: |\?\? |\, |== |<=? |>=? |\+= |\-= |\/= |\*= |%= |\w\.\w+ = )\(*\d{2,}'
+    regex: '(return |case |\w\(|: |\?\? |\, |== |<=? |>=? |\+= |\-= |\/= |\*= |%= |\w\.\w+ = )\(*-?\d{2,}'
     message: "Numbers smell; define a constant instead."
+    match_kinds: number
   auto_generated_leftovers:
     regex: 'func [^\n]*\{\n(\s*super\.[^\n]*\n(\s*\/\/[^\n]*\n)*|(\s*\/\/[^\n]*\n)+)\s*\}'
     message: "Delete auto-generated functions that you don't use"
