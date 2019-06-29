@@ -57,6 +57,8 @@ identifier_name:
     - y
     - dx
     - dy
+    - to
+    - at
 
 line_length:
   warning: 150
