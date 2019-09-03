@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftQuality"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "Common configuration files for SwiftLint and SwiftFormat."
 
   s.homepage     = "https://github.com/yonat/SwiftQuality"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE.txt" }
 
   s.author             = { "Yonat Sharon" => "yonat@ootips.org" }
-  s.social_media_url   = "http://twitter.com/yonatsharon"
+  s.social_media_url   = "https://twitter.com/yonatsharon"
 
   s.swift_version = '4.2'
   s.swift_versions = ['4.2', '5.0']
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/yonat/SwiftQuality.git", :tag => s.version }
   s.resources  = '.swiftformat', '.swiftlint.yml'
 
-  s.dependency 'SwiftLint', '0.34.0'
-  s.dependency 'SwiftFormat/CLI', '0.40.10'
+  s.dependency 'SwiftLint', '0.35.0'
+  s.dependency 'SwiftFormat/CLI', '0.40.11'
 
 end
