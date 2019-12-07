@@ -2,4 +2,4 @@
 --commas always
 --ifdef no-indent
 --comments ignore
---disable unusedArguments, andOperator, yodaConditions, anyObjectProtocol
+--disable unusedArguments, andOperator, yodaConditions, anyObjectProtocol, redundantReturn

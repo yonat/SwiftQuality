@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftQuality"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "Common configuration files for SwiftLint and SwiftFormat."
 
   s.homepage     = "https://github.com/yonat/SwiftQuality"
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/yonat/SwiftQuality.git", :tag => s.version }
   s.resources  = '.swiftformat', '.swiftlint.yml'
 
-  s.dependency 'SwiftLint', '0.35.0'
-  s.dependency 'SwiftFormat/CLI', '0.40.11'
+  s.dependency 'SwiftLint', '0.38.0'
+  s.dependency 'SwiftFormat/CLI', '0.42.0'
 
 end
