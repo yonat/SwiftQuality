@@ -1,5 +1,8 @@
 --exclude Pods, Example/Pods
 --commas always
 --ifdef no-indent
---comments ignore
---disable unusedArguments, andOperator, yodaConditions, anyObjectProtocol, redundantReturn
+--disable unusedArguments
+--disable andOperator
+--disable yodaConditions
+--disable anyObjectProtocol
+--disable redundantReturn
