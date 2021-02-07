@@ -39,6 +39,7 @@ disabled_rules:
   - unused_closure_parameter
   - large_tuple
   - multiple_closures_with_trailing_closure
+  - implicit_return
 
 empty_count: warning
 force_cast: warning
@@ -54,8 +55,10 @@ identifier_name:
     - on
     - x
     - y
+    - z
     - dx
     - dy
+    - dz
     - to
     - at
 
