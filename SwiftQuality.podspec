@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source        = { :git => "https://github.com/yonat/SwiftQuality.git", :tag => s.version }
-  s.resources  = '.swiftformat', '.swiftlint.yml'
+  s.preserve_paths  = '.swiftformat', '.swiftlint.yml'
 
   s.dependency 'SwiftLint', '0.41.0' # 0.42.0 breaks paths with spaces
   s.dependency 'SwiftFormat/CLI', '0.47.11'
