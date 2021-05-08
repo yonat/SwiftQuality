@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftQuality"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "Common configuration files for SwiftLint and SwiftFormat."
 
   s.homepage     = "https://github.com/yonat/SwiftQuality"
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.preserve_paths  = '.swiftformat', '.swiftlint.yml'
 
   s.dependency 'SwiftLint', '0.41.0' # 0.42.0 breaks paths with spaces
-  s.dependency 'SwiftFormat/CLI', '0.47.12'
+  s.dependency 'SwiftFormat/CLI', '0.48.1'
 
 end
