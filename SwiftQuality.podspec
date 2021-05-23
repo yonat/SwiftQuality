@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.preserve_paths  = '.swiftformat', '.swiftlint.yml'
 
   s.dependency 'SwiftLint', '0.41.0' # 0.42.0 breaks paths with spaces
-  s.dependency 'SwiftFormat/CLI', '0.48.1'
+  s.dependency 'SwiftFormat/CLI', '0.48.3'
 
 end
