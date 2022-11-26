@@ -13,13 +13,13 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/yonatsharon"
 
   s.swift_versions = ['4.2', '5.0', '5.2', '5.3']
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "11.0"
   s.requires_arc = true
 
   s.source        = { :git => "https://github.com/yonat/SwiftQuality.git", :tag => s.version }
   s.preserve_paths  = '.swiftformat', '.swiftlint.yml'
 
-  s.dependency 'SwiftLint', '0.41.0' # 0.42.0 breaks paths with spaces
-  s.dependency 'SwiftFormat/CLI', '0.49.4'
+  s.dependency 'SwiftLint', '0.50.1'
+  s.dependency 'SwiftFormat/CLI', '0.50.4'
 
 end

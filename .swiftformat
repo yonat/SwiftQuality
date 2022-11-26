@@ -7,5 +7,4 @@
 --disable anyObjectProtocol
 --disable redundantReturn
 --disable wrapMultilineStatementBraces
---enable isEmpty
 --disable redundantClosure
