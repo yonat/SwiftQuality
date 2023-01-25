@@ -1,6 +1,11 @@
 excluded:
-  - Pods
-  - Example/Pods
+  - ${PWD}/Pods
+  - ${PWD}/Example/Pods
+
+analyzer_rules:
+  - typesafe_array_init
+  - unused_declaration
+  - unused_import
 
 opt_in_rules:
   - array_init
@@ -38,11 +43,8 @@ opt_in_rules:
   - single_test_class
   - sorted_first_last
   - toggle_bool
-  - typesafe_array_init
   - unavailable_function
   - unneeded_parentheses_in_closure_argument
-  - unused_declaration
-  - unused_import
   - vertical_parameter_alignment_on_call
 
 disabled_rules:
