@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftQuality"
-  s.version      = "2.0.1"
+  s.version      = "2.0.2"
   s.summary      = "Common configuration files for SwiftLint and SwiftFormat."
 
   s.homepage     = "https://github.com/yonat/SwiftQuality"
