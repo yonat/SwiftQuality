@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/yonat/SwiftQuality.git", :tag => s.version }
   s.preserve_paths  = '.swiftformat', '.swiftlint.yml'
 
-  s.dependency 'SwiftLint', '0.50.3'
-  s.dependency 'SwiftFormat/CLI', '0.50.7'
+  s.dependency 'SwiftLint', '0.54.0'
+  s.dependency 'SwiftFormat/CLI', '0.52.11'
 
 end
